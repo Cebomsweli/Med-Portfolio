@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Cookies-->
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/YOUR_ID.js"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVZT4NRTCQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RVZT4NRTCQ', { 
+          debug_mode: true,  // ← Helps debug locally
+          send_page_view: true
+        });
+      </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andiswa Mfuyi | Clinical Anatomy Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- External JS -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Left Navigation -->
+    <nav class="navbar">
+        <div class="nav-header">
+            <div class="profile-pic"></div>
+            <h1>Andiswa Mfuyi</h1>
+            <p>BSc Clinical Anatomy (Final Year)</p>
+            <p>University of KwaZulu-Natal</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#research"><i class="fas fa-microscope"></i> Research</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content Sections -->
+    <main class="content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="home-content">
+                <h2>Welcome to My Portfolio</h2>
+                <p class="intro-text">I am a <span class="highlight">final-year Clinical Anatomy student</span> at the University of KwaZulu-Natal, passionate about anatomical research and medical education.</p>
+                <button class="btn" id="download-btn" onclick="trackDownload()">
+                    Download CV
+                </button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am dedicated to advancing my knowledge in human anatomy and contributing to medical research. My goal is to pursue a career in <span class="highlight">academic medicine or pathology</span>.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>Neuroanatomy</h3>
+                    <p>Special interest in brain dissection and neural pathways.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-book"></i>
+                    <h3>Teaching</h3>
+                    <p>Experience tutoring undergraduate students.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-date">2025 - Present</div>
+            <div class="timeline-content">
+                <h3>BSc in Clinical Anatomy (Final Year)</h3>
+                <p>University of KwaZulu-Natal (UKZN)</p>
+                <ul>
+                    <li>Dissertation: <em>"Morphometric Analysis of the Brachial Plexus in South African Populations"</em></li>
+                    <li>Key Courses: Gross Anatomy, Neuroanatomy, Histology, Embryology, Medical Imaging</li>
+                </ul>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">2022</div>
+            <div class="timeline-content">
+                <h3>Computer Literacy Certification</h3>
+                <p>Durban Computer Training Centre</p>
+                <ul>
+                    <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                    <li>Basic Data Analysis</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3><i class="fas fa-bone"></i> Anatomical Skills</h3>
+            <ul>
+                <li>Cadaver Dissection & Prosection</li>
+                <li>Histology Slide Analysis</li>
+                <li>Neuroanatomical Mapping</li>
+                <li>Medical Imaging (CT/MRI/X-ray)</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3><i class="fas fa-laptop"></i> Technical Skills</h3>
+            <ul>
+                <li>Microsoft Office (Advanced)</li>
+                <li>SPSS/GraphPad (Data Analysis)</li>
+                <li>3D Anatomy Software (Complete Anatomy)</li>
+                <li>Academic Writing (LaTeX/Word)</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3><i class="fas fa-brain"></i> Research & Soft Skills</h3>
+            <ul>
+                <li>Scientific Literature Review</li>
+                <li>Statistical Analysis</li>
+                <li>Teaching & Tutoring</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <script>
+        // JavaScript will go here
+    </script>
+</body>
+</html>
